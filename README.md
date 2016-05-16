@@ -1,2 +1,2 @@
 # camp-algo
-Solution to a few interesting problems
+Solutions to a few interesting problems
