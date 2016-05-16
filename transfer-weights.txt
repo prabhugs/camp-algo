@@ -1,0 +1,26 @@
+Transfer Weights
+
+Two containers are provided, one of which can store x kilograms  of pulses and the other  y kilograms of pulses, determine the number of steps required to get exactly z kilograms of pulses in one of the containers.
+To start with, both containers are empty. The following operations are counted as 'steps':
+emptying a container,
+filling a container,
+Transferring pulses from one container to the other, without spilling, until one of the containers is either full or empty.
+Input
+An int k, 1<=k<=100, denoting the number of testcases, followed by k sets of input data, each consisting of three positive integers x, y, z, not greater than 40000, given in separate lines.
+Output
+For each set of input data, output the minimum number of steps required to obtain z kilograms, or -1 if this is impossible.
+Example
+Sample input:
+2
+5
+2
+3
+2
+3
+4
+
+
+Sample output:
+2
+-1
+
